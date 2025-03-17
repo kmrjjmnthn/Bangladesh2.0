@@ -199,6 +199,32 @@ main section {
     color: rgba(14, 14, 14, 0.7);
 }
 
+.quote {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin-top: 32px;
+    background-color: white;
+}
+
+.quote-image {
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.quote-description {
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-speaker {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.speaker-designation {
+    color: rgba(14, 14, 14, 0.6);
+}
+
 /* Vision Section Styles Ends */
 
 /* Main Section Styles Ends */
