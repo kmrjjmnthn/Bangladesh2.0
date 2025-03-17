@@ -25,6 +25,49 @@
     color: #0E0E0E;
 }
 
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.button-green {
+    padding: 11px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+}
+
+.button-blue {
+    padding: 11px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: none;
+}
+
+.button-yellow {
+    padding: 11px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #FFC239;
+    border-radius: 8px;
+    border: none;
+}
+
+.blue-bg {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green-bg {
+    background-color: #C6E4D6;
+}
+
+.yellow-bg {
+    background-color: #F7EBCF;
+}
+
 /* Header Section Styles Starts */
 
 /* Navbar Section Styles Starts */
@@ -128,5 +171,30 @@ main section {
 }
 
 /* Features Section Styles Ends */
+
+/* Vision Section Styles Starts */
+
+.visions-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.vision {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Section Styles Ends */
 
 /* Main Section Styles Ends */
