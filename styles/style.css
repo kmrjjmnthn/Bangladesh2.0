@@ -19,6 +19,12 @@
     border: none;
 }
 
+.section-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0E0E0E;
+}
+
 /* Header Section Styles Starts */
 
 /* Navbar Section Styles Starts */
@@ -82,3 +88,45 @@ nav {
 /* Banner Section Styles Ends */
 
 /* Header Section Styles Ends */
+
+/* Main Section Styles Starts */
+
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Features Section Styles Starts */
+
+.features-container {
+    display: flex;
+    gap: 24px;
+}
+
+.feature {
+    padding: 24px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.feature-description {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+
+/* Features Section Styles Ends */
+
+/* Main Section Styles Ends */
