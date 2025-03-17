@@ -19,6 +19,8 @@
     border: none;
 }
 
+/* Header Section Styles Starts */
+
 /* Navbar Section Styles Starts */
 
 nav {
@@ -45,3 +47,33 @@ nav {
 }
 
 /* Navbar Section Styles Ends */
+
+/* Banner Section Styles Starts */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 160px 80px 160px;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.banner-sub-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E0E0E;
+    opacity: 0.5;
+}
+
+.banner-profile-picture {
+    width: 475px;
+}
+
+/* Banner Section Styles Ends */
+
+/* Header Section Styles Ends */
