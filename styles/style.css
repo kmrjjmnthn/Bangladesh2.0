@@ -2,3 +2,46 @@
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
   }  
+
+/* Shared Styles */
+
+.secondary-bg {
+    background-color: #C6E4D6;
+}
+
+.button-primary {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Navbar Section Styles Starts */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 160px;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0E0E0E;
+}
+
+.nav-button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+/* Navbar Section Styles Ends */
