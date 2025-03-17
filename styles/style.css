@@ -5,6 +5,10 @@
 
 /* Shared Styles */
 
+.primary-bg {
+    background-color: #F1F1F3;
+}
+
 .secondary-bg {
     background-color: #C6E4D6;
 }
