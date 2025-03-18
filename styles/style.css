@@ -42,6 +42,15 @@
     border: none;
 }
 
+.button-dark-green {
+    padding: 11px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+}
+
 .button-blue {
     padding: 11px 20px;
     font-weight: 600;
@@ -226,5 +235,49 @@ main section {
 }
 
 /* Vision Section Styles Ends */
+
+/* News Section Styles Starts */
+
+.news-card {
+    display: flex;
+    padding: 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    gap: 32px;
+    background-color: white;
+    margin-top: 24px;
+}
+
+.news-image {
+    width: 408px;
+    border-radius: 24px;
+}
+
+.news-sub-image {
+    width: 134px;
+}
+
+.news-content {
+    width: 744px;
+}
+
+.news-title {
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news-description {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-time {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-button {
+    margin-top: 32px;
+}
+
+/* News Section Styles Ends */
 
 /* Main Section Styles Ends */
